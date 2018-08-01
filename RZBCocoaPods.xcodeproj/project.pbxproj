@@ -10,6 +10,8 @@
 		0FABF4B0211221F100EA2B4F /* RZBCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FABF4A6211221F100EA2B4F /* RZBCocoaPods.framework */; };
 		0FABF4B5211221F100EA2B4F /* RZBCocoaPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FABF4B4211221F100EA2B4F /* RZBCocoaPodsTests.swift */; };
 		0FABF4B7211221F100EA2B4F /* RZBCocoaPods.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FABF4A9211221F100EA2B4F /* RZBCocoaPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3232D4F831BD5F197A39A0DE /* Pods_RZBCocoaPodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3A14E639141AE573ED79DA /* Pods_RZBCocoaPodsTests.framework */; };
+		AAD540C6FBBCC5322E7C3A61 /* Pods_RZBCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC434B57AB9FF91585E66EF /* Pods_RZBCocoaPods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,12 @@
 		0FABF4AF211221F100EA2B4F /* RZBCocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZBCocoaPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FABF4B4211221F100EA2B4F /* RZBCocoaPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZBCocoaPodsTests.swift; sourceTree = "<group>"; };
 		0FABF4B6211221F100EA2B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC434B57AB9FF91585E66EF /* Pods_RZBCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZBCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3A14E639141AE573ED79DA /* Pods_RZBCocoaPodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZBCocoaPodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0DA8D5038EE48812E9DB79 /* Pods-RZBCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZBCocoaPods.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZBCocoaPods/Pods-RZBCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		E3124996004E7060F4EA7B23 /* Pods-RZBCocoaPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZBCocoaPodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZBCocoaPodsTests/Pods-RZBCocoaPodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0A3FCD61E9B2C91EFB199F9 /* Pods-RZBCocoaPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZBCocoaPodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZBCocoaPodsTests/Pods-RZBCocoaPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD1E282247B3A6AAC025120 /* Pods-RZBCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZBCocoaPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZBCocoaPods/Pods-RZBCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD540C6FBBCC5322E7C3A61 /* Pods_RZBCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FABF4B0211221F100EA2B4F /* RZBCocoaPods.framework in Frameworks */,
+				3232D4F831BD5F197A39A0DE /* Pods_RZBCocoaPodsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03B2CDB6220DC273767DDEAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDD1E282247B3A6AAC025120 /* Pods-RZBCocoaPods.debug.xcconfig */,
+				CF0DA8D5038EE48812E9DB79 /* Pods-RZBCocoaPods.release.xcconfig */,
+				F0A3FCD61E9B2C91EFB199F9 /* Pods-RZBCocoaPodsTests.debug.xcconfig */,
+				E3124996004E7060F4EA7B23 /* Pods-RZBCocoaPodsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0FABF49C211221F100EA2B4F = {
 			isa = PBXGroup;
 			children = (
 				0FABF4A8211221F100EA2B4F /* RZBCocoaPods */,
 				0FABF4B3211221F100EA2B4F /* RZBCocoaPodsTests */,
 				0FABF4A7211221F100EA2B4F /* Products */,
+				03B2CDB6220DC273767DDEAF /* Pods */,
+				B3799CAD796D81A64737D45F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +109,15 @@
 			path = RZBCocoaPodsTests;
 			sourceTree = "<group>";
 		};
+		B3799CAD796D81A64737D45F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DC434B57AB9FF91585E66EF /* Pods_RZBCocoaPods.framework */,
+				AF3A14E639141AE573ED79DA /* Pods_RZBCocoaPodsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FABF4BA211221F100EA2B4F /* Build configuration list for PBXNativeTarget "RZBCocoaPods" */;
 			buildPhases = (
+				35AAB70A7BB73E00D8195585 /* [CP] Check Pods Manifest.lock */,
 				0FABF4A1211221F100EA2B4F /* Sources */,
 				0FABF4A2211221F100EA2B4F /* Frameworks */,
 				0FABF4A3211221F100EA2B4F /* Headers */,
@@ -122,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FABF4BD211221F100EA2B4F /* Build configuration list for PBXNativeTarget "RZBCocoaPodsTests" */;
 			buildPhases = (
+				A8058536B413CB5F0ED5E17A /* [CP] Check Pods Manifest.lock */,
 				0FABF4AB211221F100EA2B4F /* Sources */,
 				0FABF4AC211221F100EA2B4F /* Frameworks */,
 				0FABF4AD211221F100EA2B4F /* Resources */,
+				F3E1A6F5422B64EA09DDDEBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +223,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35AAB70A7BB73E00D8195585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RZBCocoaPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8058536B413CB5F0ED5E17A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RZBCocoaPodsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E1A6F5422B64EA09DDDEBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RZBCocoaPodsTests/Pods-RZBCocoaPodsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RZBluetooth.common-Test/RZBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/RZBluetooth.common/RZBluetooth.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RZBluetooth.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZBCocoaPodsTests/Pods-RZBCocoaPodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FABF4A1211221F100EA2B4F /* Sources */ = {
@@ -338,6 +431,7 @@
 		};
 		0FABF4BB211221F100EA2B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD1E282247B3A6AAC025120 /* Pods-RZBCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -362,6 +456,7 @@
 		};
 		0FABF4BC211221F100EA2B4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0DA8D5038EE48812E9DB79 /* Pods-RZBCocoaPods.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -386,6 +481,7 @@
 		};
 		0FABF4BE211221F100EA2B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A3FCD61E9B2C91EFB199F9 /* Pods-RZBCocoaPodsTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RZBCocoaPodsTests/Info.plist;
@@ -403,6 +499,7 @@
 		};
 		0FABF4BF211221F100EA2B4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3124996004E7060F4EA7B23 /* Pods-RZBCocoaPodsTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RZBCocoaPodsTests/Info.plist;

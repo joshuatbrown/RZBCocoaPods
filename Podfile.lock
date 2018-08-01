@@ -1,0 +1,24 @@
+PODS:
+  - RZBluetooth (1.2.2):
+    - RZBluetooth/Core (= 1.2.2)
+  - RZBluetooth/Core (1.2.2)
+  - RZBluetooth/Mock (1.2.2):
+    - RZBluetooth/Core
+  - RZBluetooth/Test (1.2.2):
+    - RZBluetooth/Mock
+
+DEPENDENCIES:
+  - RZBluetooth (~> 1.2)
+  - RZBluetooth/Mock (~> 1.2)
+  - RZBluetooth/Test (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RZBluetooth
+
+SPEC CHECKSUMS:
+  RZBluetooth: 80278a1e941644224554040b7d0f6418b7a99291
+
+PODFILE CHECKSUM: ba991b7eb0d55fdc8184f574e119ba5a7a0ec52b
+
+COCOAPODS: 1.5.3
